@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Finder</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <a href="#container">Main Features</a>
+    <a href="#doctorsearch">Doctor Search</a>
+    <a href="#home">Home</a>
+    <img src="image/logo1.jpg" alt="logo" style="padding: 20px; width:40px">
+</nav>
+
+<div id="home">
+    <div id="main-div">
+          <div id="sidebar-div">
+              <h1 style="font-family:sans-serif; color:rgb(255, 255, 255); text-align:center; ">Need Health Consultation?<br>Now On Your Hand</h1>
+              <h2 style="font-family:sans-serif; color :rgb(255, 255, 255); " ></h2>
+              <h3 style="font-family: sans-serif; color:blanchedalmond ">Find The Perfect Doctor</h3>
+              <P style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; background-color:#87B5D6; border-radius:400px 40px 400px 40px">This is one of best platform where you get the best doctor <br>by entering the name of city that is one best <br>advantance for you to get best treatment</P>
+              <button id="displayButton">BOOK YOUR APPOINENTMENT</button> 
+              <div id="informationDiv" class="hidden">
+             <p style="color:white;">Remember to maintain a professional <br>and empathetic tone throughout the content.</p>
+        </div>
+  </div>
+      <div id="bodyarea-div">
+          <img src="image/doctor.jpg">
+      </div>
+</div>
+         
+</div>
+<div id="doctorsearch">
+  <form method="POST" action="home.php">
+    <h1>DOCTOR FINDER</h1>
+      <label for="specialty">Select Specialty:</label>
+        <select id="specialty" name="speciality">
+            <option value="Cardiologist">Cardiologist</option>
+            <option value="Dermatologist">Dermatologist</option>
+            <option value="Orthopedic">Orthopedic</option>
+            <option value="Gynaecologist">Gynaecologist</option>
+            <option value="Endocrinologis">Endocrinologis</option>
+            <option value="Obstetrician">Obstetrician</option>
+            <option value="Pediatrics">Pediatrics</option>
+            <option value="Physical therapy">Physical therapy</option>
+            <option value="Neurology ">Neurology </option> 
+            <option value="Pulmonology">Pulmonology</option>
+            <option value="Geriatrics">Geriatrics</option>
+            <option value="Occupational">Occupational</option>
+            <option value="Rheumatology">Rheumatology</option>
+        </select>
+      <input type="submit" name="Search" value="Search" style="background-color: #000000;color:white;    padding: 10px 15px;border: none;cursor: pointer;">
+  </form>
+</div>
+
+</div>
+    <div id="container">
+      <h1 style="margin-left: 650px;">MAIN FEATURES</h1>
+    <div id="additionalInfo">
+      <div id="box1">
+          <h1>Emergency Department</h1><br>
+          <img src="image/Emeregency.png" style="margin-left:120px ; background-color:aliceblue">
+          <P style="text-align: center; color:black; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">An Emergency Department (ED) also know as an accident <br> and Emergency Department (A&E),<br> Emergency Room (E&R), <br> Emergency Ward (E&W) or <br> Cansualty Department (C&D), <br> an Medical Treatment</P>
+      </div>
+      <div id="box2">
+        <h1  style="background-color: aliceblue; border:aliceblue solid 5px;">Book Appoinentment</h1><br>
+        <img src="image/eppointement.png"style="margin-left:120px ;">
+        <P style="text-align: center; color:black; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"> Book Direct Appoinentment through this website<br>Make you Appoinentment easily and <br> get the best doctors Consultation<br> also check your health maintain<br> health record,<br> healthCare@gmail.com </P>     
+      </div>
+    </div>
+</div>
+
+<div id="main-dive" class="clearfix">
+    <div class="first" style="color:#000000; background-color:#87b5d6; margin-left:30px; text-align:center">
+        <img src="image/contact.jpg">
+        <h1>Contact</h1>
+        <p style="text-align: center;">956-344-5543 <br>healthCare@gmail.com<br> 353-876-4630</p>  
+    </div>
+    <div class="second" style="color: #000000; margin-left:30px ; background-color:#87b5d6;text-align:center" >
+      <img src="image/services.jpg">
+      <h1>Services</h1>
+      <p style="text-align:center; " > 1. Comprehensive Doctor Search<br>2. Detailed Provider Profiles<br>3. Healthcare Facility Information<br>4. Health and Wellness Resources</p>
+    </div>
+    <div class="third" style="color:#000000; margin-left:30px ; background-color:#87b5d6; text-align:center">
+      <img src="image/Aboutus.png">
+      <h1>About Us</h1>
+      <p>Welcome to Doctor Finder, your trusted partner<br> in navigating the world of healthcare. At Doctor Finder, we understand the importance of finding the right healthcare professional to meet your specific needs</p>
+    </div>
+</div>
+    <!-- <footer id="social">
+      <img src="image/insta.jpg" alt="">
+      <img src="image/facebook.jpg" alt="">
+      <img src="image/whatsapp.jpg" alt="">
+    </footer> -->
+
+</body>
+</html>

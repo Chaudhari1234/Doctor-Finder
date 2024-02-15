@@ -1,0 +1,205 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    background-color: #87b5d6;
+    width: 100%;
+}
+nav 
+{
+    background-color: #1f75ad;
+    overflow: hidden;
+    margin-bottom: 0px;
+    height: 9%;
+    border-radius: 2px 1px 0px 1px ;
+    font-size: larger; 
+}
+nav a 
+{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px ;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover 
+{
+    background-color: #87b5d6;
+    color: #000000;
+}
+#main-div
+{
+    display: block;
+    width: 90%;
+    min-height: 500px;
+    background-color: #87b5d6;
+    margin: 3% 3%;
+    border-radius: 400px;
+    backdrop-filter: blur(20px); 
+    margin-left: 100px;
+    margin-bottom: 70px;  
+}
+#sidebar-div
+{
+    width: 50%;
+    min-height: 370px;
+    float:left;
+    border-radius: 20px 200px;
+    text-align: center;
+    background-color: #87B5D6;  
+}  
+#bodyarea-div
+{
+    width:50%;
+    min-height:300px;
+    background-color:#87B5D6;
+    float: right;
+    display: flex;
+    border-radius: 200px;
+}
+#bodyarea-div img
+{
+    float: right;
+    margin-left: 50px;
+    /* position: fixed;  */
+    margin-top: 20px;
+}
+#bodyarea-div:hover
+{
+    transform: scale(1.05);
+}
+h1 
+{
+    text-align: center;
+    color: #333;
+}
+label 
+{
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+select, input
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+button
+{
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0.1px;
+}
+button:hover 
+{
+    background-color: #45a049;
+}
+#doctorsearch
+{
+    margin-left: 200px;
+    margin-right: 900px;
+    padding-left:  20px;
+    padding-right: 20px; 
+    margin-bottom: 50px; 
+    padding-bottom: 10px;
+}
+#additionalInfo 
+{
+    width: 100%;
+    background-color:aliceblue; 
+    margin-bottom: 10px;  
+}
+#box1
+{
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    float: left;
+    color: wheat;
+    margin-left: 300px;
+    border-radius:  30px 40px 300px 300px;
+    margin-top: 10px;
+}
+#box1:hover
+{
+    transform: scale(1.05);
+}
+#box2
+{
+    height: 400px;
+    width: 300px;
+    background-color:aliceblue;
+    float: right;
+    color: wheat;
+    margin-right: 300px;
+    border-radius:  30px 40px 300px 300px;
+}
+#box2:hover
+{
+    transform: scale(1.05);
+}
+#main-dive {
+    width: 100%;
+    margin-top: 20px; 
+    min-height: 40px;
+    background-color: #87b5d6;
+}
+#main-dive .first
+{
+    width: 30%;
+    min-height: 400px;
+    /* background-color: #45a049;  */
+    margin-top: 20px;
+    float: left;
+    border-radius:300px;
+}
+.first:hover
+{
+    transform: scale(1.05);
+}
+#main-dive .second
+{
+    width: 30%;
+    min-height: 400px;
+    /* background-color: #000000;  */
+    float: left;
+    margin-top: 20px; 
+}
+.second:hover
+{
+    transform: scale(1.05);
+}
+#main-dive .third
+{
+    width: 30%;
+    min-height: 400px;
+    background-color: #000000; 
+    /* margin-top: 20px;  */
+    float: left;
+    margin-top: 25px;
+}
+.third:hover
+{
+    transform: scale(1.05);
+}
+.clearfix::after
+{
+    display: block;
+    content: "";
+}
+#container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-bottom: 1px;
+   background-color: aliceblue;
+   color: #000000;
+}
